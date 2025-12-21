@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-
-import '../../../../../utilities/constant/images.dart';
-import '../../../../../utilities/constant/sizes.dart';
-import '../../../../../utilities/constant/texts.dart';
 import '../../../../../utilities/helpers/device_helper.dart';
-class onBoardingPage extends StatelessWidget {
-  const onBoardingPage({
+class OnBoardingPage extends StatelessWidget {
+  const OnBoardingPage({
     super.key, required this.animation, required this.title, required this.subtitle,
   });
 

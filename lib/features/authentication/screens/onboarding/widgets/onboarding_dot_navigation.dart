@@ -17,7 +17,7 @@ final controller= OnBoardingController.instance;
       bottom: UDeviceHelper.getBottomNavigationBarHeight() * 4.7,
       left: UDeviceHelper.getScreenWidth(context) / 3,
       right: UDeviceHelper.getScreenWidth(context) / 3,
-      child: SmoothPageIndicator(controller: controller.pagecontroller,
+      child: SmoothPageIndicator(controller: controller.pageController,
           onDotClicked: controller.dotNavigationClick,count: 3
           , effect:ExpandingDotsEffect(
               dotHeight: 6

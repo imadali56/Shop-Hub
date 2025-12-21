@@ -1,8 +1,7 @@
-import 'package:animated_container/utilities/constant/color.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
 
-import 'myApp.dart';
+import 'package:flutter/material.dart';
+
+import 'my_app.dart';
 
 void main() {
   final widgetsBinding= WidgetsFlutterBinding.ensureInitialized();
