@@ -1,13 +1,10 @@
 import 'package:animated_container/common/style/padding.dart';
-import 'package:animated_container/common/widgets/button/elevated_button.dart';
 import 'package:animated_container/common/widgets/button/social_buttons.dart';
 import 'package:animated_container/common/widgets/login_signup/form_divider.dart';
 import 'package:animated_container/features/authentication/screens/signup/widgets/signup_form.dart';
-import 'package:animated_container/utilities/constant/color.dart';
 import 'package:animated_container/utilities/constant/sizes.dart';
 import 'package:animated_container/utilities/constant/texts.dart';
 import 'package:flutter/material.dart';
-import 'package:iconsax/iconsax.dart';
 
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({super.key});
@@ -31,7 +28,7 @@ class SignUpScreen extends StatelessWidget {
               SizedBox(height: USizes.spaceBtwSections),
 
               // ----- Form ----- //
-              signup_form(),
+              SignUpForm(),
               SizedBox(height: USizes.spaceBtwSections),
               // ----- Divider ----- //
 

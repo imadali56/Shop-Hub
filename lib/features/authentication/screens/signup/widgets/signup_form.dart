@@ -3,12 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../../common/widgets/button/elevated_button.dart';
-import '../../../../../utilities/constant/color.dart';
 import '../../../../../utilities/constant/sizes.dart';
 import '../../../../../utilities/constant/texts.dart';
 
-class signup_form extends StatelessWidget {
-  const signup_form({
+class SignUpForm extends StatelessWidget {
+  const SignUpForm({
     super.key,
   });
 

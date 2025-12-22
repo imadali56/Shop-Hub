@@ -18,8 +18,8 @@ final controller= OnBoardingController.instance;// issue
       bottom: USizes.spaceBtwItems/2,
 
       child: UElevatedButton(
-        child: Obx(()=> Text(controller.currentIndex.value==2? 'Get Started'  : 'Next')),
         onPressed: controller.nextPage,
+        child: Obx(()=> Text(controller.currentIndex.value==2? 'Get Started'  : 'Next')),
       ),
     );
   }
