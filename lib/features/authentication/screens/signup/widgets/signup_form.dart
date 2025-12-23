@@ -1,5 +1,8 @@
+import 'package:animated_container/features/authentication/screens/signup/verify_email.dart';
 import 'package:animated_container/features/authentication/screens/signup/widgets/privacy_policy_checkbox.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../../common/widgets/button/elevated_button.dart';
@@ -73,7 +76,7 @@ class SignUpForm extends StatelessWidget {
         SizedBox(height: USizes.spaceBtwItems),
         // Create Account Elevated Button
 
-        UElevatedButton(onPressed: (){}, child: Text(UTexts.createAccount)),
+        UElevatedButton(onPressed: ()=> Get.to(()=> VerifyEmailScreen()), child: Text(UTexts.createAccount)),
       ],
     );
   }
