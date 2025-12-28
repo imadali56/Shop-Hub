@@ -1,11 +1,11 @@
 import 'package:animated_container/features/authentication/screens/forget_password/forget_password.dart';
 import 'package:animated_container/features/authentication/screens/signup/signup.dart';
-import 'package:animated_container/navigation_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../../common/widgets/button/elevated_button.dart';
+import '../../../../../navigation_menu.dart';
 import '../../../../../utilities/constant/sizes.dart';
 import '../../../../../utilities/constant/texts.dart';
 
