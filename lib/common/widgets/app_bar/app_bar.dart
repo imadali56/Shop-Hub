@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+
 import '../../../utilities/constant/color.dart';
 import '../../../utilities/constant/sizes.dart';
 import '../../../utilities/helpers/device_helper.dart';
-import '../../../utilities/helpers/helper_functions.dart';
 class UAppBar extends StatelessWidget implements PreferredSizeWidget {
   const UAppBar({
     super.key,
     this.title,
-    this.showBackArea = false,
+    this.showBackArea= false,
     this.leadingIcon,
-    this.leadingPressed,
+    this.leadingOnPressed,
     this.actions,
   });
 
@@ -19,11 +19,11 @@ class UAppBar extends StatelessWidget implements PreferredSizeWidget {
   final bool showBackArea;
   final IconData? leadingIcon;
   final List<Widget>? actions;
-  final VoidCallback? leadingPressed;
+  final VoidCallback? leadingOnPressed;
 
   @override
   Widget build(BuildContext context) {
-    bool dark = UHelperFunction.isDarkMode(context);
+
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: USizes.md),
       child: AppBar(
@@ -32,15 +32,9 @@ class UAppBar extends StatelessWidget implements PreferredSizeWidget {
         /// Leading
         leading: showBackArea
             ? IconButton(
-          onPressed: Get.back,
-          icon: Icon(
-            Iconsax.arrow_left,
-            color: dark ? UColors.white : UColors.dark,
-          ),
-        )
-            : leadingIcon != null
-            ? IconButton(onPressed: leadingPressed, icon: Icon(leadingIcon))
-            : null,
+          onPressed:   Get.back,
+          icon: Icon(Iconsax.arrow_left, color: UColors.white),
+        ) : null,
 
         /// Title
         title: title,

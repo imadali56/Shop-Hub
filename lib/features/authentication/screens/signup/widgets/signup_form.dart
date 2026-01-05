@@ -2,9 +2,7 @@ import 'package:animated_container/features/authentication/screens/signup/verify
 import 'package:animated_container/features/authentication/screens/signup/widgets/privacy_policy_checkbox.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
-
 import '../../../../../common/widgets/button/elevated_button.dart';
 import '../../../../../utilities/constant/sizes.dart';
 import '../../../../../utilities/constant/texts.dart';
