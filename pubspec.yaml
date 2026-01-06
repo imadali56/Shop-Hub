@@ -12,10 +12,10 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  flutter_native_splash: ^2.4.7
   lottie: ^3.3.2
   smooth_page_indicator: ^2.0.1
   iconsax: ^0.0.8
+  carousel_slider: ^5.1.1
 
   # State_Management
   get: ^4.7.3
@@ -34,6 +34,7 @@ flutter:
     - assets/logo/
     - assets/animations/
     - assets/images/
+    - assets/icons/
 
   fonts:
     - family: 'Nunito'

@@ -1,7 +1,7 @@
-import 'package:animated_container/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:animated_container/splash/splash_screen.dart';
 import 'package:animated_container/utilities/constant/theme/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:get/get.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -13,8 +13,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: UAppTheme.lightTheme,
       darkTheme: UAppTheme.darkTheme,
-
-      home: OnboardingScreen(),
+      home: const SplashScreen(),
     );
   }
 }

@@ -1,7 +1,5 @@
 import 'package:animated_container/common/widgets/custom_shapes/rounded_edges_container.dart';
 import 'package:animated_container/utilities/constant/color.dart';
-import 'package:animated_container/utilities/constant/sizes.dart';
-import 'package:animated_container/utilities/helpers/device_helper.dart';
 import 'package:flutter/material.dart';
 
 class PrimaryHeaderContainer extends StatelessWidget {
