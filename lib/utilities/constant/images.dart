@@ -24,7 +24,13 @@ class UImages{
   static const spotsEquipmentsIcon='assets/icons/spots_equipments.png';
   static const trackSuitIcon='assets/icons/track_suit.png';
 
-
+  // banners //
+  static const  homeBanner1='assets/banners/banner_1.jpg';
+  static const  homeBanner2='assets/banners/banner_2.jpg';
+  static const  homeBanner3='assets/banners/banner_3.jpg';
+  static const  homeBanner4='assets/banners/banner_4.jpg';
+  static const  homeBanner5='assets/banners/banner_5.jpg';
+  static const  homeBanner6='assets/banners/banner_6.jpg';
 
 
 }
